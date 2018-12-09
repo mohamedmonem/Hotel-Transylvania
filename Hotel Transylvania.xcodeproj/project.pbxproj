@@ -15,6 +15,7 @@
 		18A63E9721BB076D00A3E493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A63E9521BB076D00A3E493 /* LaunchScreen.storyboard */; };
 		18A63EA221BB076D00A3E493 /* Hotel_TransylvaniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A63EA121BB076D00A3E493 /* Hotel_TransylvaniaTests.swift */; };
 		18A63EAD21BB076D00A3E493 /* Hotel_TransylvaniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A63EAC21BB076D00A3E493 /* Hotel_TransylvaniaUITests.swift */; };
+		18A63EBF21BB14CF00A3E493 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A63EBE21BB14CF00A3E493 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18A63EA821BB076D00A3E493 /* Hotel TransylvaniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hotel TransylvaniaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A63EAC21BB076D00A3E493 /* Hotel_TransylvaniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel_TransylvaniaUITests.swift; sourceTree = "<group>"; };
 		18A63EAE21BB076D00A3E493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A63EBE21BB14CF00A3E493 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,11 @@
 		18A63E8821BB076B00A3E493 /* Hotel Transylvania */ = {
 			isa = PBXGroup;
 			children = (
+				18A63EBD21BB148D00A3E493 /* Supporting Files */,
+				18A63EBA21BB121100A3E493 /* Model */,
+				18A63EBB21BB121A00A3E493 /* View */,
+				18A63EBC21BB122400A3E493 /* Controller */,
 				18A63E8921BB076B00A3E493 /* AppDelegate.swift */,
-				18A63E8B21BB076B00A3E493 /* ViewController.swift */,
 				18A63E8D21BB076B00A3E493 /* Main.storyboard */,
 				18A63E9321BB076D00A3E493 /* Assets.xcassets */,
 				18A63E9521BB076D00A3E493 /* LaunchScreen.storyboard */,
@@ -126,6 +131,36 @@
 				18A63EAE21BB076D00A3E493 /* Info.plist */,
 			);
 			path = "Hotel TransylvaniaUITests";
+			sourceTree = "<group>";
+		};
+		18A63EBA21BB121100A3E493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18A63EBB21BB121A00A3E493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18A63EBC21BB122400A3E493 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A63E8B21BB076B00A3E493 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A63EBD21BB148D00A3E493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A63EBE21BB14CF00A3E493 /* Extensions.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +297,7 @@
 				18A63E8C21BB076B00A3E493 /* ViewController.swift in Sources */,
 				18A63E8A21BB076B00A3E493 /* AppDelegate.swift in Sources */,
 				18A63E9221BB076B00A3E493 /* Hotel_Transylvania.xcdatamodeld in Sources */,
+				18A63EBF21BB14CF00A3E493 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
